@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@275;405;465&display=swap');
+
+*{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 465;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #031d44;
+}
+
+h1{
+    color: #ff5c00;
+}
+
+p{
+    color: #f7c009;
+}
+
+button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+    border: 2px solid #f7c009;
+    color: #f7c009;
+    background-color: rgb(255, 245, 152);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#buttonMinus{
+    border: 2px solid rgb(192, 1, 1);
+    color: rgb(192, 1, 1);
+    background-color: rgb(255, 170, 170);
+}
+
+#buttonPlus{
+    border: 2px solid #13ac00;
+    color: #13ac00;
+    background-color: rgb(153, 253, 144);
+}
+
+#counter{
+    display: flex;
+}
+
+#currentNumber{
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+    color: #f7c009;
+}
